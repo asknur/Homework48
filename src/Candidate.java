@@ -2,11 +2,12 @@ public class Candidate {
     private int id;
     private String name;
     private String photo;
+    private int votes;
 
     public Candidate(int id, String name, String photo) {
-        this.id = id;
         this.name = name;
         this.photo = photo;
+        this.votes = 0;
     }
 
     public int getId() {
@@ -32,4 +33,17 @@ public class Candidate {
     public void setPhoto(String photo) {
         this.photo = photo;
     }
+
+    public int getVotes() {
+        return votes;
+    }
+
+    public void setVotes(int votes) {
+        this.votes = votes;
+    }
+
+    public void addVote() {
+        votes++;
+    }
+
 }
