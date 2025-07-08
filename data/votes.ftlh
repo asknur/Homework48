@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Who's winning?</title>
-    <link rel="stylesheet" href="css/candidates.css">
+    <link rel="stylesheet" href="/css/candidates.css">
 </head>
 
 <body>
